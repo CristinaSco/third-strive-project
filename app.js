@@ -1,6 +1,6 @@
 
 const search = function(event) {
-    if(event.key === 'Enter'){
+    if(event.keyCode === '13'){
         console.log(event.target.value)
         getPhotos(event.target.value)
     }
